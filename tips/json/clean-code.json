@@ -1,0 +1,23 @@
+[
+    "%\r\n\r\nKeep it simple stupid. Simpler is always better. Reduce complexity as much as possible.",
+    "%\r\n\r\nBoy scout rule. Leave the campground cleaner than you found it.",
+    "%\r\n\r\nAlways find the root cause. Always look for the root cause of a problem.",
+    "%\r\n\r\n\r\nKeep configurable data at high levels.",
+    "%\r\n\r\nSeparate multi-threading code.",
+    "%\r\n\r\nPrevent over-configurability.",
+    "%\r\n\r\nUse dependency injection.",
+    "%\r\n\r\nFollow the Law of Demeter. A class should know only its direct dependencies. Never change things inside dependencies.",
+    "%\r\n \r\nBe consistent. If you do something a certain way, do all similar things in the same way.",
+    "%\r\n\r\nEncapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the processing for them in one place.",
+    "%\r\n\r\nAvoid logical dependency. Don't write methods which works correctly depending on something else in the same class.",
+    "%\r\n\r\nAvoid negative conditionals. Makes it hard to understand",
+    "%\r\n\r\nChoose descriptive and unambiguous names. IDEs can help in autocompletion so avoid shorter names.",
+    "%\r\n\r\nUse searchable names. Makes it possible to find and replace if needed.",
+    "%\r\n\r\nReplace magic numbers with named constants.",
+    "%\r\n\r\n# Functions\r\n\r\n* Small. (Cognitive complexity rule)\r\n* Use descriptive names.\r\n* Prefer fewer arguments.\r\n* Prefer one object argument to enclose more than three args. To help achieve backwards compatibility later on easily.\r\n* Have no side effects. Do one thing. Prefer returning the value instead of updating directly.\r\n* Don't use flag arguments. Split the method into several independent methods that can be called from the client without the flag.\\",
+    "%\r\n\r\n\r\n# Comments\r\n\r\n* Always try to explain yourself in code. Use as clarification of code.\r\n* Don't be redundant.\r\n* Don't comment out code. Just remove.\r\n* Use as warning of consequences.\r\n* Source code structure\r\n* Separate concepts vertically. (Folder structure should have logically related items closer. All files related to a view or route should live close.)\r\n* Declare variables close to their usage.\r\n* Dependent functions should be close.\r\n* Similar functions should be closed.\r\n* Use white space to associate related things and disassociate weakly related things.",
+    "# Tests\r\n\r\n* Readable.\r\n* Fast.\r\n* Independent.\r\n* Repeatable.\r\n\r\n\r\n**Code smell** Rigidity. The software is difficult to change. A small change causes a cascade of subsequent changes.",
+    "%\r\n\r\n**Code smell** Fragility. The software breaks in many places due to a single change.",
+    "%\r\n\r\n**Code smell** Immobility. You cannot reuse parts of the code in other projects because of the risks involved and high effort.",
+    "%"
+]
